@@ -1,0 +1,80 @@
+form {
+  position: relative;
+  top: 33%;
+  right: 20%;
+  height: 300px;
+  color: white;
+}
+
+form .form__control {
+  background-color: white;
+  width: 350px;
+  height: 45px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+form .form__control input::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+form .form__control input:-ms-input-placeholder {
+  font-size: 17px;
+}
+
+form .form__control input::-ms-input-placeholder {
+  font-size: 17px;
+}
+
+form .form__control input::placeholder {
+  font-size: 17px;
+}
+
+form .form__control .input {
+  width: 300px;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid white;
+}
+
+form .control_penal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form .control_penal a {
+  text-decoration: none;
+  color: white;
+}
+
+form .btn1 button {
+  margin-top: 25px;
+  width: 350px;
+  height: 45px;
+  background-color: #22C56E;
+  border: 1px solid #22C56E;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+form .btn2 button {
+  margin-top: 25px;
+  width: 350px;
+  height: 45px;
+  background-color: #02A0E1;
+  border: 1px solid #02A0E1;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=index.css.map */

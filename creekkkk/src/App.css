@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+.main__container {
+  background-image: url(./components/assests/codeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main__container .main__box {
+  background-color: black;
+  height: 100vh;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.main__container .main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80vh;
+}
+
+/* Animations */
+@-webkit-keyframes slideInFromLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromRight {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromTop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slideInFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.icons__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin-top: 13%;
+  height: 400px;
+  border-right: 1px solid grey;
+  -webkit-animation: slideInFromTop 1s ease-in;
+          animation: slideInFromTop 1s ease-in;
+}
+
+.icons__container .logo__box {
+  width: 220px;
+  margin-left: 34%;
+  margin-bottom: 12%;
+}
+
+.icons__container .logo__box img {
+  width: 100%;
+}
+
+.creek__from {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  top: 9%;
+  height: 400px;
+  padding: 20px;
+}
+
+.creek__from .form__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.creek__from .form__header .sign_in_form {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.creek__from .form__header .sign_in_form a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+
+.creek__from .form__header .sign_in_form a:hover {
+  color: white;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.footer__container {
+  position: relative;
+}
+
+.footer__container .footer__items {
+  position: absolute;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 30%;
+}
+
+.footer__container .footer__links {
+  list-style: none;
+}
+
+.footer__container .footer__links a {
+  width: 200px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+  font-size: 19px;
+  top: 60px;
+}
+/*# sourceMappingURL=App.css.map */
